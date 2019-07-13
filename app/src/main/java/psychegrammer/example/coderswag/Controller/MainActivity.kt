@@ -1,7 +1,8 @@
-package psychegrammer.example.coderswag
+package psychegrammer.example.coderswag.Controller
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import psychegrammer.example.coderswag.R
 
 class MainActivity : AppCompatActivity() {
 
