@@ -5,6 +5,7 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="@android:color/white"
         tools:context=".Controller.ProductsActivity">
 
     <TextView
@@ -17,7 +18,7 @@
     <android.support.v7.widget.RecyclerView
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:id="@+id/productListView"
+            android:id="@+id/productsListView"
             android:layout_marginTop="16dp"
             app:layout_constraintTop_toBottomOf="@+id/textView" app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
